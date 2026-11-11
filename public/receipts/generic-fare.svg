@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="480" viewBox="0 0 320 480">
+  <path d="M18 8h284v430l-12 12-16-8-14 14-18-10-14 12-20-8-16 10-18-12-14 8V8z" fill="#f6f3ec" stroke="#e4ddd2"/>
+  <g font-family="Source Sans 3, Segoe UI, sans-serif" fill="#1c2430" text-anchor="middle">
+    <text x="160" y="70" font-size="18" font-weight="700">Riverside Rail</text>
+    <text x="160" y="96" font-size="14" fill="#5c6776">Fare receipt</text>
+  </g>
+  <g font-family="Source Sans 3, Segoe UI, sans-serif" font-size="14" fill="#1c2430">
+    <text x="40" y="328" font-weight="700">Total</text>
+    <text x="280" y="328" text-anchor="end" font-weight="700">See claim</text>
+  </g>
+</svg>

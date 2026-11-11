@@ -1,0 +1,655 @@
+{
+  "version": "2026.1",
+  "currency": "USD",
+  "notes": "Illustrative pilot manifest. Receipts are synthetic. No clinical data.",
+  "claims": [
+    {
+      "id": "TP-1042",
+      "group": "riverside-mixed",
+      "submittedHour": 0,
+      "reviewHour": 2,
+      "resolvedHour": 26,
+      "paymentLagHours": 1,
+      "lines": [
+        {
+          "id": "fare",
+          "amount": 2400,
+          "category": "transit",
+          "immediate": "approve",
+          "final": "approve"
+        },
+        {
+          "id": "supplies",
+          "amount": 1600,
+          "category": "supplies",
+          "immediate": "hold",
+          "final": "approve"
+        }
+      ]
+    },
+    {
+      "id": "TP-1100",
+      "group": "eligible-single",
+      "submittedHour": 0,
+      "reviewHour": 3,
+      "resolvedHour": null,
+      "paymentLagHours": 1,
+      "lines": [
+        {
+          "id": "only",
+          "amount": 800,
+          "category": "transit",
+          "immediate": "approve",
+          "final": "approve"
+        }
+      ]
+    },
+    {
+      "id": "TP-1101",
+      "group": "mixed",
+      "submittedHour": 1,
+      "reviewHour": 5,
+      "resolvedHour": 31,
+      "paymentLagHours": 2,
+      "lines": [
+        {
+          "id": "ok",
+          "amount": 1200,
+          "category": "transit",
+          "immediate": "approve",
+          "final": "approve"
+        },
+        {
+          "id": "hold",
+          "amount": 900,
+          "category": "supplies",
+          "immediate": "hold",
+          "final": "approve"
+        }
+      ]
+    },
+    {
+      "id": "TP-1102",
+      "group": "duplicate-decline",
+      "submittedHour": 2,
+      "reviewHour": 7,
+      "resolvedHour": 22,
+      "paymentLagHours": 1,
+      "lines": [
+        {
+          "id": "dup",
+          "amount": 1600,
+          "category": "supplies",
+          "immediate": "hold",
+          "final": "decline"
+        }
+      ]
+    },
+    {
+      "id": "TP-1103",
+      "group": "policy-exception",
+      "submittedHour": 3,
+      "reviewHour": 5,
+      "resolvedHour": 15,
+      "paymentLagHours": 1,
+      "lines": [
+        {
+          "id": "cap",
+          "amount": 4000,
+          "category": "meals",
+          "immediate": "decline",
+          "final": "decline"
+        }
+      ]
+    },
+    {
+      "id": "TP-1104",
+      "group": "eligible-supplies",
+      "submittedHour": 4,
+      "reviewHour": 5,
+      "resolvedHour": null,
+      "paymentLagHours": 1,
+      "lines": [
+        {
+          "id": "sup",
+          "amount": 1100,
+          "category": "supplies",
+          "immediate": "approve",
+          "final": "approve"
+        }
+      ]
+    },
+    {
+      "id": "TP-1105",
+      "group": "eligible-single",
+      "submittedHour": 5,
+      "reviewHour": 8,
+      "resolvedHour": null,
+      "paymentLagHours": 1,
+      "lines": [
+        {
+          "id": "only",
+          "amount": 1050,
+          "category": "transit",
+          "immediate": "approve",
+          "final": "approve"
+        }
+      ]
+    },
+    {
+      "id": "TP-1106",
+      "group": "mixed",
+      "submittedHour": 6,
+      "reviewHour": 10,
+      "resolvedHour": 36,
+      "paymentLagHours": 2,
+      "lines": [
+        {
+          "id": "ok",
+          "amount": 1200,
+          "category": "transit",
+          "immediate": "approve",
+          "final": "approve"
+        },
+        {
+          "id": "hold",
+          "amount": 900,
+          "category": "supplies",
+          "immediate": "hold",
+          "final": "approve"
+        }
+      ]
+    },
+    {
+      "id": "TP-1107",
+      "group": "duplicate-decline",
+      "submittedHour": 7,
+      "reviewHour": 12,
+      "resolvedHour": 27,
+      "paymentLagHours": 1,
+      "lines": [
+        {
+          "id": "dup",
+          "amount": 1600,
+          "category": "supplies",
+          "immediate": "hold",
+          "final": "decline"
+        }
+      ]
+    },
+    {
+      "id": "TP-1108",
+      "group": "policy-exception",
+      "submittedHour": 8,
+      "reviewHour": 10,
+      "resolvedHour": 20,
+      "paymentLagHours": 1,
+      "lines": [
+        {
+          "id": "cap",
+          "amount": 4000,
+          "category": "meals",
+          "immediate": "decline",
+          "final": "decline"
+        }
+      ]
+    },
+    {
+      "id": "TP-1109",
+      "group": "eligible-supplies",
+      "submittedHour": 9,
+      "reviewHour": 10,
+      "resolvedHour": null,
+      "paymentLagHours": 1,
+      "lines": [
+        {
+          "id": "sup",
+          "amount": 1100,
+          "category": "supplies",
+          "immediate": "approve",
+          "final": "approve"
+        }
+      ]
+    },
+    {
+      "id": "TP-1110",
+      "group": "eligible-single",
+      "submittedHour": 10,
+      "reviewHour": 13,
+      "resolvedHour": null,
+      "paymentLagHours": 1,
+      "lines": [
+        {
+          "id": "only",
+          "amount": 1300,
+          "category": "transit",
+          "immediate": "approve",
+          "final": "approve"
+        }
+      ]
+    },
+    {
+      "id": "TP-1111",
+      "group": "mixed",
+      "submittedHour": 11,
+      "reviewHour": 15,
+      "resolvedHour": 41,
+      "paymentLagHours": 2,
+      "lines": [
+        {
+          "id": "ok",
+          "amount": 1200,
+          "category": "transit",
+          "immediate": "approve",
+          "final": "approve"
+        },
+        {
+          "id": "hold",
+          "amount": 900,
+          "category": "supplies",
+          "immediate": "hold",
+          "final": "approve"
+        }
+      ]
+    },
+    {
+      "id": "TP-1112",
+      "group": "duplicate-decline",
+      "submittedHour": 12,
+      "reviewHour": 17,
+      "resolvedHour": 32,
+      "paymentLagHours": 1,
+      "lines": [
+        {
+          "id": "dup",
+          "amount": 1600,
+          "category": "supplies",
+          "immediate": "hold",
+          "final": "decline"
+        }
+      ]
+    },
+    {
+      "id": "TP-1113",
+      "group": "policy-exception",
+      "submittedHour": 13,
+      "reviewHour": 15,
+      "resolvedHour": 25,
+      "paymentLagHours": 1,
+      "lines": [
+        {
+          "id": "cap",
+          "amount": 4000,
+          "category": "meals",
+          "immediate": "decline",
+          "final": "decline"
+        }
+      ]
+    },
+    {
+      "id": "TP-1114",
+      "group": "eligible-supplies",
+      "submittedHour": 14,
+      "reviewHour": 15,
+      "resolvedHour": null,
+      "paymentLagHours": 1,
+      "lines": [
+        {
+          "id": "sup",
+          "amount": 1100,
+          "category": "supplies",
+          "immediate": "approve",
+          "final": "approve"
+        }
+      ]
+    },
+    {
+      "id": "TP-1115",
+      "group": "eligible-single",
+      "submittedHour": 15,
+      "reviewHour": 18,
+      "resolvedHour": null,
+      "paymentLagHours": 1,
+      "lines": [
+        {
+          "id": "only",
+          "amount": 1550,
+          "category": "transit",
+          "immediate": "approve",
+          "final": "approve"
+        }
+      ]
+    },
+    {
+      "id": "TP-1116",
+      "group": "mixed",
+      "submittedHour": 16,
+      "reviewHour": 20,
+      "resolvedHour": 46,
+      "paymentLagHours": 2,
+      "lines": [
+        {
+          "id": "ok",
+          "amount": 1200,
+          "category": "transit",
+          "immediate": "approve",
+          "final": "approve"
+        },
+        {
+          "id": "hold",
+          "amount": 900,
+          "category": "supplies",
+          "immediate": "hold",
+          "final": "approve"
+        }
+      ]
+    },
+    {
+      "id": "TP-1117",
+      "group": "duplicate-decline",
+      "submittedHour": 17,
+      "reviewHour": 22,
+      "resolvedHour": 37,
+      "paymentLagHours": 1,
+      "lines": [
+        {
+          "id": "dup",
+          "amount": 1600,
+          "category": "supplies",
+          "immediate": "hold",
+          "final": "decline"
+        }
+      ]
+    },
+    {
+      "id": "TP-1118",
+      "group": "policy-exception",
+      "submittedHour": 18,
+      "reviewHour": 20,
+      "resolvedHour": 30,
+      "paymentLagHours": 1,
+      "lines": [
+        {
+          "id": "cap",
+          "amount": 4000,
+          "category": "meals",
+          "immediate": "decline",
+          "final": "decline"
+        }
+      ]
+    },
+    {
+      "id": "TP-1119",
+      "group": "eligible-supplies",
+      "submittedHour": 19,
+      "reviewHour": 20,
+      "resolvedHour": null,
+      "paymentLagHours": 1,
+      "lines": [
+        {
+          "id": "sup",
+          "amount": 1100,
+          "category": "supplies",
+          "immediate": "approve",
+          "final": "approve"
+        }
+      ]
+    },
+    {
+      "id": "TP-1120",
+      "group": "eligible-single",
+      "submittedHour": 20,
+      "reviewHour": 23,
+      "resolvedHour": null,
+      "paymentLagHours": 1,
+      "lines": [
+        {
+          "id": "only",
+          "amount": 1800,
+          "category": "transit",
+          "immediate": "approve",
+          "final": "approve"
+        }
+      ]
+    },
+    {
+      "id": "TP-1121",
+      "group": "mixed",
+      "submittedHour": 21,
+      "reviewHour": 25,
+      "resolvedHour": 51,
+      "paymentLagHours": 2,
+      "lines": [
+        {
+          "id": "ok",
+          "amount": 1200,
+          "category": "transit",
+          "immediate": "approve",
+          "final": "approve"
+        },
+        {
+          "id": "hold",
+          "amount": 900,
+          "category": "supplies",
+          "immediate": "hold",
+          "final": "approve"
+        }
+      ]
+    },
+    {
+      "id": "TP-1122",
+      "group": "duplicate-decline",
+      "submittedHour": 22,
+      "reviewHour": 27,
+      "resolvedHour": 42,
+      "paymentLagHours": 1,
+      "lines": [
+        {
+          "id": "dup",
+          "amount": 1600,
+          "category": "supplies",
+          "immediate": "hold",
+          "final": "decline"
+        }
+      ]
+    }
+  ],
+  "duplicateCases": [
+    {
+      "id": "supplies-cluster",
+      "query": {
+        "workspaceId": "ws_harborlight",
+        "currency": "USD",
+        "expenseDate": "2025-01-18",
+        "merchant": "Community Supplies",
+        "category": "supplies",
+        "passengerKey": null,
+        "amount": 1600,
+        "receiptId": "r-query",
+        "claimId": "TP-2001",
+        "lineId": "L1",
+        "claimantId": "u1",
+        "contentHash": "supplies-query",
+        "perceptualHash": "aaaaaaaaaaaaaaaa",
+        "reference": "4418"
+      },
+      "candidates": [
+        {
+          "workspaceId": "ws_harborlight",
+          "currency": "USD",
+          "expenseDate": "2025-01-18",
+          "merchant": "Community Supplies",
+          "category": "supplies",
+          "passengerKey": null,
+          "amount": 1600,
+          "receiptId": "r-rel-0",
+          "claimId": "TP-REL-0",
+          "lineId": "L",
+          "claimantId": "u-rel-0",
+          "contentHash": "supplies-rel-0",
+          "perceptualHash": "aaaaaaaaaaaaaaaa",
+          "reference": "4490"
+        },
+        {
+          "workspaceId": "ws_harborlight",
+          "currency": "USD",
+          "expenseDate": "2025-01-18",
+          "merchant": "Community Supplies",
+          "category": "supplies",
+          "passengerKey": null,
+          "amount": 1600,
+          "receiptId": "r-rel-1",
+          "claimId": "TP-REL-1",
+          "lineId": "L",
+          "claimantId": "u-rel-1",
+          "contentHash": "supplies-rel-1",
+          "perceptualHash": "aaaaaaaaaaaaaaab",
+          "reference": "4490"
+        },
+        {
+          "workspaceId": "ws_harborlight",
+          "currency": "USD",
+          "expenseDate": "2025-01-18",
+          "merchant": "Community Supplies",
+          "category": "supplies",
+          "passengerKey": null,
+          "amount": 1600,
+          "receiptId": "r-rel-2",
+          "claimId": "TP-REL-2",
+          "lineId": "L",
+          "claimantId": "u-rel-2",
+          "contentHash": "supplies-rel-2",
+          "perceptualHash": "aaaaaaaaaaaaaaab",
+          "reference": "4418"
+        },
+        {
+          "workspaceId": "ws_harborlight",
+          "receiptId": "r-fare-other",
+          "claimId": "TP-FARE-OTHER",
+          "lineId": "L",
+          "claimantId": "u-other",
+          "contentHash": "fare-other",
+          "perceptualHash": "0123456789abcdef",
+          "merchant": "Riverside Rail",
+          "reference": "T-9",
+          "currency": "USD",
+          "amount": 2400,
+          "expenseDate": "2025-01-18",
+          "category": "transit",
+          "passengerKey": "passenger-b"
+        },
+        {
+          "workspaceId": "ws_harborlight",
+          "currency": "USD",
+          "expenseDate": "2024-11-01",
+          "merchant": "Community Supplies",
+          "category": "supplies",
+          "passengerKey": null,
+          "amount": 500,
+          "receiptId": "r-old",
+          "claimId": "TP-OLD",
+          "lineId": "L",
+          "claimantId": "u-old",
+          "contentHash": "old",
+          "perceptualHash": "0000000000000000",
+          "reference": "1"
+        }
+      ],
+      "relevantIds": [
+        "TP-REL-0",
+        "TP-REL-1",
+        "TP-REL-2"
+      ],
+      "legitimateIds": []
+    },
+    {
+      "id": "same-day-fares",
+      "query": {
+        "workspaceId": "ws_harborlight",
+        "receiptId": "r-fare-query",
+        "claimId": "TP-FARE-QUERY",
+        "lineId": "L",
+        "claimantId": "u-maya",
+        "contentHash": "fare-maya",
+        "perceptualHash": "fedcba9876543210",
+        "merchant": "Riverside Rail",
+        "reference": "T-9",
+        "currency": "USD",
+        "amount": 2400,
+        "expenseDate": "2025-01-18",
+        "category": "transit",
+        "passengerKey": "passenger-a"
+      },
+      "candidates": [
+        {
+          "workspaceId": "ws_harborlight",
+          "receiptId": "r-fare-other",
+          "claimId": "TP-FARE-OTHER",
+          "lineId": "L",
+          "claimantId": "u-other",
+          "contentHash": "fare-other",
+          "perceptualHash": "0123456789abcdef",
+          "merchant": "Riverside Rail",
+          "reference": "T-9",
+          "currency": "USD",
+          "amount": 2400,
+          "expenseDate": "2025-01-18",
+          "category": "transit",
+          "passengerKey": "passenger-b"
+        },
+        {
+          "workspaceId": "ws_harborlight",
+          "currency": "USD",
+          "expenseDate": "2025-01-18",
+          "merchant": "Community Supplies",
+          "category": "supplies",
+          "passengerKey": null,
+          "amount": 1600,
+          "receiptId": "r-rel-0",
+          "claimId": "TP-REL-0",
+          "lineId": "L",
+          "claimantId": "u-rel-0",
+          "contentHash": "supplies-rel-0",
+          "perceptualHash": "aaaaaaaaaaaaaaaa",
+          "reference": "4490"
+        },
+        {
+          "workspaceId": "ws_harborlight",
+          "currency": "USD",
+          "expenseDate": "2025-01-18",
+          "merchant": "Community Supplies",
+          "category": "supplies",
+          "passengerKey": null,
+          "amount": 1600,
+          "receiptId": "r-rel-1",
+          "claimId": "TP-REL-1",
+          "lineId": "L",
+          "claimantId": "u-rel-1",
+          "contentHash": "supplies-rel-1",
+          "perceptualHash": "aaaaaaaaaaaaaaab",
+          "reference": "4490"
+        },
+        {
+          "workspaceId": "ws_harborlight",
+          "currency": "USD",
+          "expenseDate": "2025-01-18",
+          "merchant": "Community Supplies",
+          "category": "supplies",
+          "passengerKey": null,
+          "amount": 1600,
+          "receiptId": "r-rel-2",
+          "claimId": "TP-REL-2",
+          "lineId": "L",
+          "claimantId": "u-rel-2",
+          "contentHash": "supplies-rel-2",
+          "perceptualHash": "aaaaaaaaaaaaaaab",
+          "reference": "4418"
+        }
+      ],
+      "relevantIds": [],
+      "legitimateIds": [
+        "TP-FARE-OTHER"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="420" viewBox="0 0 320 420">
+  <rect width="320" height="420" rx="8" fill="#f7f8fa" stroke="#e6e8ee"/>
+  <g font-family="Source Sans 3, Segoe UI, sans-serif" fill="#1c2430">
+    <text x="28" y="48" font-size="18" font-weight="700">Shift check-in</text>
+    <text x="28" y="78" font-size="14" fill="#667085">Harborlight Volunteers</text>
+    <text x="28" y="130" font-size="14">Volunteer</text>
+    <text x="180" y="130" font-size="14" font-weight="700">Maya Chen</text>
+    <text x="28" y="162" font-size="14">Activity</text>
+    <text x="180" y="162" font-size="14" font-weight="700">Community Pantry Shift</text>
+    <text x="28" y="194" font-size="14">Date</text>
+    <text x="180" y="194" font-size="14" font-weight="700">Jan 18, 2025</text>
+    <text x="28" y="226" font-size="14">Status</text>
+    <text x="180" y="226" font-size="14" font-weight="700">Assigned</text>
+    <text x="28" y="280" font-size="13" fill="#667085">Attendance was recorded for this activity.</text>
+  </g>
+</svg>

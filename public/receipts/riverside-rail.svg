@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="560" viewBox="0 0 320 560" role="img" aria-label="Riverside Rail train receipt">
+  <path d="M22 10h276v500l-10 14-14-8-12 16-16-10-14 12-18-8-12 14-16-9-14 11-16-8-12 10-18-12-14 9-16-11-14 8V10z" fill="#f6f3ec"/>
+  <path d="M22 10h276v500l-10 14-14-8-12 16-16-10-14 12-18-8-12 14-16-9-14 11-16-8-12 10-18-12-14 9-16-11-14 8" fill="none" stroke="#e3ddd2" stroke-width="1"/>
+  <g fill="#1c2430">
+    <rect x="146" y="36" width="28" height="18" rx="3"/>
+    <rect x="136" y="50" width="48" height="22" rx="3"/>
+    <circle cx="146" cy="76" r="5" fill="#f6f3ec" stroke="#1c2430" stroke-width="2"/>
+    <circle cx="174" cy="76" r="5" fill="#f6f3ec" stroke="#1c2430" stroke-width="2"/>
+    <text x="160" y="112" text-anchor="middle" font-family="Source Sans 3, Segoe UI, sans-serif" font-size="22" font-weight="700">Riverside Rail</text>
+    <text x="160" y="136" text-anchor="middle" font-family="Source Sans 3, Segoe UI, sans-serif" font-size="16" font-weight="600">Train Receipt</text>
+  </g>
+  <path d="M40 156h240" stroke="#d9d3c8" stroke-width="1"/>
+  <g font-family="Source Sans 3, Segoe UI, sans-serif" font-size="13" fill="#3c4656">
+    <text x="40" y="188">Date</text>
+    <text x="280" y="188" text-anchor="end" font-weight="650" fill="#1c2430">Jan 18, 2025</text>
+    <text x="40" y="224">Service</text>
+    <text x="280" y="224" text-anchor="end" font-weight="650" fill="#1c2430">City Line</text>
+    <text x="40" y="260">Route</text>
+    <text x="280" y="260" text-anchor="end" font-weight="650" fill="#1c2430">Riverside - Central</text>
+    <text x="40" y="296">Ticket</text>
+    <text x="280" y="296" text-anchor="end" font-weight="650" fill="#1c2430">One-Way</text>
+  </g>
+  <path d="M40 314h240" stroke="#d9d3c8" stroke-width="1"/>
+  <g font-family="Source Sans 3, Segoe UI, sans-serif" fill="#1c2430">
+    <text x="40" y="348" font-size="15">Fare</text>
+    <text x="280" y="348" text-anchor="end" font-size="16" font-weight="700">$24.00</text>
+  </g>
+  <path d="M40 372h240" stroke="#cfc8bb" stroke-dasharray="3 4"/>
+  <g font-family="Source Sans 3, Segoe UI, sans-serif" fill="#1c2430">
+    <text x="40" y="430" font-size="16" font-weight="700">Total</text>
+    <text x="280" y="430" text-anchor="end" font-size="18" font-weight="700">$24.00</text>
+  </g>
+  <path d="M40 460h240" stroke="#d9d3c8" stroke-width="1"/>
+  <g font-family="Source Sans 3, Segoe UI, sans-serif" font-size="13" fill="#5c6776" text-anchor="middle">
+    <text x="160" y="492">Thank you for riding</text>
+    <text x="160" y="512" font-weight="700" fill="#1c2430">Riverside Rail</text>
+  </g>
+</svg>
